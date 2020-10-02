@@ -14,7 +14,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
   planeteer_calls.find do |call| 
-    if call = valid_calls
+    if call = valid_calls[call]
       call
     else
       nil 
